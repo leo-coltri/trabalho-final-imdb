@@ -1,7 +1,7 @@
 def create_table_if_not_exists(conn):
     with conn.cursor() as cur:
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS questions4 (
+            CREATE TABLE IF NOT EXISTS tb_questions (
                 key INT PRIMARY KEY,
                 question_text VARCHAR,
                 alternativa_a VARCHAR,
@@ -15,7 +15,7 @@ def create_table_if_not_exists(conn):
         """)
 
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS answers4 (
+            CREATE TABLE IF NOT EXISTS tb_answers (
                 answer_key VARCHAR PRIMARY KEY,
                 question_id INT,
                 alternativa_escolhida VARCHAR,
@@ -34,7 +34,7 @@ def insert_into_postgres_answers(r, conn, answer_key):
         #print(meu_dict_str.keys())
         with conn.cursor() as cur:
             cur.execute("""
-                INSERT INTO answers4
+                INSERT INTO tb_answers
                 (answer_key, question_id, alternativa_escolhida, datahora, usuario, nro_tentativa)
                 VALUES (%s, %s, %s, %s, %s, %s)
                 ON CONFLICT (answer_key) DO NOTHING;
@@ -60,7 +60,7 @@ def insert_into_postgres_questions(r, conn, key):
         #print(meu_dict_str.keys())
         with conn.cursor() as cur:
             cur.execute("""
-                INSERT INTO questions3
+                INSERT INTO tb_questions
                 (key, question_text, alternativa_a, alternativa_b, alternativa_c, alternativa_d, alternativa_correta, dificuldade, assunto)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
                 ON CONFLICT (key) DO NOTHING;
