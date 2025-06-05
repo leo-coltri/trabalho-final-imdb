@@ -122,7 +122,7 @@ SELECT
     COUNT(*) AS total_respostas,
     SUM(CASE WHEN a.alternativa_escolhida = q.alternativa_correta THEN 1 ELSE 0 END) AS total_acertos
 FROM tb_answers a
-JOIN questions q ON a.question_id = q.key
+JOIN tb_questions q ON a.question_id = q.key
 GROUP BY a.usuario
 ORDER BY total_acertos DESC;
 
