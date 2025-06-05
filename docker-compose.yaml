@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  postgres:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: senhaForte2025
+      POSTGRES_DB: dw
+    ports:
+      - "5432:5432"
+
+  fastapi:
+    build: .
+    depends_on:
+      - redis
+      - postgres
+    ports:
+      - "8000:8000"
+
+  worker:
+    build: .
+    depends_on:
+      - redis
+      - postgres
+    command: ["python", "worker.py"]

@@ -1,0 +1,464 @@
+[
+  {
+    "question_id": 8,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 15:29",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 8,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 14:25",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 8,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 13:49",
+    "usuario": "dlemes",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 11,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 14:28",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 11,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 14:45",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 21,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 15:30",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 21,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 13:40",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 5,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 14:48",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 5,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 13:56",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 5,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 12:01",
+    "usuario": "dlemes",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 15,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 12:12",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 15,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 15:50",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 25,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 13:30",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 25,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 15:24",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 25,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 15:39",
+    "usuario": "dlemes",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 24,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 14:24",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 24,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 15:10",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 16,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 15:05",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 16,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 14:43",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 20,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 12:31",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 20,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 12:23",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 14:22",
+    "usuario": "dlemes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 12:36",
+    "usuario": "dlemes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 13:55",
+    "usuario": "dlemes",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 18,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 15:03",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 18,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 14:13",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 18,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 12:49",
+    "usuario": "lcoltri",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 25,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 15:56",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 25,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 12:22",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 14:55",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 12:08",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 14,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 12:48",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 14,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 15:50",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 5,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 13:37",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 5,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 12:34",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 15,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 12:51",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 15,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 13:42",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 15,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 12:06",
+    "usuario": "lcoltri",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 19,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 13:51",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 19,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 15:38",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 17,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 15:01",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 17,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 15:57",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 17,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 13:51",
+    "usuario": "lcoltri",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 20,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 14:53",
+    "usuario": "lcoltri",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 20,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 12:28",
+    "usuario": "lcoltri",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 20,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 15:35",
+    "usuario": "lcoltri",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 22,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 12:34",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 22,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 12:17",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 15:54",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 15:13",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 23,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 14:10",
+    "usuario": "amendes",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 14,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 13:21",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 14,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 14:43",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 8,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 15:10",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 8,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 12:53",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 8,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 12:05",
+    "usuario": "amendes",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 12,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 13:32",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 12,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 13:15",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 12,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 15:43",
+    "usuario": "amendes",
+    "nro_tentativa": 3
+  },
+  {
+    "question_id": 5,
+    "alternativa_escolhida": "d",
+    "datahora": "05/06/2025 14:59",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 5,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 15:04",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 20,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 15:21",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 20,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 13:05",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 19,
+    "alternativa_escolhida": "a",
+    "datahora": "05/06/2025 12:18",
+    "usuario": "amendes",
+    "nro_tentativa": 1
+  },
+  {
+    "question_id": 19,
+    "alternativa_escolhida": "c",
+    "datahora": "05/06/2025 12:01",
+    "usuario": "amendes",
+    "nro_tentativa": 2
+  },
+  {
+    "question_id": 19,
+    "alternativa_escolhida": "b",
+    "datahora": "05/06/2025 13:54",
+    "usuario": "amendes",
+    "nro_tentativa": 3
+  }
+]
