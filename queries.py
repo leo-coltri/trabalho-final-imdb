@@ -155,3 +155,5 @@ cursor = pg_conn.cursor()
 
 ## Executar as queries
 cursor.execute(query1)
+for row in cursor.fetchall():
+    print(row)
