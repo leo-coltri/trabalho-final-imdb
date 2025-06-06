@@ -61,3 +61,26 @@ python pool_answers.py
 ```
 
 ---
+
+### 7. Executar as Consultas SQL de Indicadores (`queries.py`)
+
+Para gerar e visualizar os indicadores do sistema, você precisará executar as consultas SQL presentes no arquivo `queries.py`.
+
+1.  **Escolha a Consulta**:
+    Abra o arquivo `queries.py` em um editor de texto. No final do arquivo, você encontrará uma variável (como `cursor.execute(query7)` no seu exemplo) que define qual consulta será executada.
+
+    Para executar uma das 7 consultas, **modifique o número da query** na linha `cursor.execute(queryX)` para a consulta desejada (por exemplo, `query1`, `query2`, etc.).
+
+2.  **Salve o Arquivo**:
+    Após alterar a variável, salve as modificações no arquivo `queries.py`.
+
+3.  **Execute o Script Python**:
+    Execute o script `queries.py` dentro do container da sua aplicação. Primeiro, encontre o nome do seu container de aplicação (usando `docker ps` se você não souber).
+
+    ```bash
+    python queries.py
+    ```
+
+    A saída da consulta será exibida diretamente no seu terminal.
+
+---
