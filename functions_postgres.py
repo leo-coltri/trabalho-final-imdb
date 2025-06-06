@@ -1,4 +1,11 @@
 def create_table_if_not_exists(conn):
+    """
+    Cria as tabelas tb_questions e tb_answers no banco de dados,
+    somente se elas n o existirem ainda.
+
+    :param conn: conex o com o banco de dados
+    :type conn: psycopg2.extensions.connection
+    """
     with conn.cursor() as cur:
         cur.execute("""
             CREATE TABLE IF NOT EXISTS tb_questions (
@@ -27,6 +34,17 @@ def create_table_if_not_exists(conn):
     conn.commit()
 
 def insert_into_postgres_answers(r, conn, answer_key):
+    """
+    Insere uma resposta no banco de dados PostgreSQL.
+
+    :param r: conex o com o Redis
+    :type r: redis.Redis
+    :param conn: conex o com o banco de dados
+    :type conn: psycopg2.extensions.connection
+    :param answer_key: chave da resposta no Redis
+    :type answer_key: str ou bytes
+    """
+    
     value = r.hgetall(answer_key)
     meu_dict_str = {k.decode(): v.decode() for k, v in value.items()}
 
@@ -50,6 +68,16 @@ def insert_into_postgres_answers(r, conn, answer_key):
             conn.commit()
 
 def insert_into_postgres_questions(r, conn, key):
+    """
+    Insere uma pergunta no banco de dados PostgreSQL.
+
+    :param r: conex o com o Redis
+    :type r: redis.Redis
+    :param conn: conex o com o banco de dados
+    :type conn: psycopg2.extensions.connection
+    :param key: chave da pergunta no Redis
+    :type key: str ou bytes
+    """
     value = r.hgetall(key)
     meu_dict_str = {k.decode(): v.decode() for k, v in value.items()}
 

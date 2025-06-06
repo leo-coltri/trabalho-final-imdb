@@ -15,6 +15,15 @@ pg_conn = psycopg2.connect(
 
 
 def main():
+    """
+    Inicia o processo de ingestão de respostas do Redis para o PostgreSQL.
+
+    Cria a tabela no PostgreSQL se não existir e inicia um loop infinito
+    para processar as respostas armazenadas na lista Redis 'pilha_answers'.
+    Em cada iteração do loop, verifica se existe uma chave na lista, a
+    processa e a remove da lista. Caso não exista, o loop vai para a
+    próxima iteração. O loop também espera 1 segundo entre cada iteração.
+    """
     create_table_if_not_exists(pg_conn)
     print("Iniciando processo de ingestão")
     while True:
