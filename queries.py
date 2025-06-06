@@ -59,7 +59,7 @@ SELECT
 FROM
     tb_questions q
 LEFT JOIN
-    answers4 a ON q.key = a.question_id
+    tb_answers a ON q.key = a.question_id
 GROUP BY
     q.key, q.question_text
 ORDER BY
