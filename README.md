@@ -21,7 +21,7 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina:
 Abra o terminal na raiz do projeto e execute o comando:
 
 ```bash
-docker compose up -d
+docker-compose up --build -d
 ```
 
 Este comando irá iniciar os containers do Redis, PostgreSQL e da aplicação FastAPI em segundo plano.
